@@ -2,7 +2,7 @@
 
 PATH_DIR="$1";
 
-#OUTPUT FILES
+#TEMPORARY OUTPUT FILES
 DEFAULT_LOGS="./default_logs.txt";
 OTHER_LOGS="./other_logs.txt";
 STR_LOGS="./str_logs.txt";
@@ -84,7 +84,7 @@ search_complex_other_logs() {
     done
 }
 
-#SEARCH ALL LOGS TO TXT FILES
+#EXPORT ALL LOGS TO TXT FILES
 extract_logs() {
     search_default_logs
     search_other_logs
